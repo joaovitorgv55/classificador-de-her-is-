@@ -15,33 +15,31 @@ int main() {
 
         printf("Bem-vindo, %s. Por favor, insira sua experiência (XP): ", NomeHeroi);
         scanf("%d", &xpHeroi);
-
-        printf("HERÓI: %s\nXP TOTAL: %d\nCLASSE DEFINIDA: ", NomeHeroi, xpHeroi);
         
         switch (xpHeroi) {
             case 0 ... 1000:
-                printf("FERRO\n");
+                printf("HEROI: %s\n CLASSE: FERRO\n ", NomeHeroi);
                 break;
             case 1001 ... 2000:
-                printf("BRONZE\n");
+                printf("HEROI: %s\n CLASSE: BRONZE\n ", NomeHeroi);
                 break;
             case 2001 ... 5000:
-                printf("PRATA\n");
+                printf("HEROI: %s\n CLASSE: PRATA\n ", NomeHeroi);
                 break;
             case 5001 ... 7000:
-                printf("OURO\n");
+                printf("HEROI: %s\n CLASSE: OURO\n ", NomeHeroi);
                 break;
             case 7001 ... 8000:
-                printf("PLATINA\n");
+                printf("HEROI: %s\n CLASSE: PLATINA\n ", NomeHeroi);
                 break;
             case 8001 ... 9000:
-                printf("ASCENDENTE\n");
+                printf("HEROI: %s\n CLASSE: ASCENDENTE\n ", NomeHeroi);
                 break;
             case 9001 ... 10000:
-                printf("IMORTAL\n");
+                printf("HEROI: %s\n CLASSE: IMORTAL\n ", NomeHeroi);
                 break;
             default:
-                printf("RADIANTE\n");
+                printf("HEROI: %s\n CLASSE: RADIANTE\n ", NomeHeroi);
                 break;
         }
 
