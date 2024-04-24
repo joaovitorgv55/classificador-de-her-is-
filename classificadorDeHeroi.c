@@ -1,3 +1,5 @@
+//programei em línguiagem c pois tenho mais familiaridade por conta da faculdade, ainda não tive muito contato com outras línguagens
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
